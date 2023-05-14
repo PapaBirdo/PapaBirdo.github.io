@@ -1,3 +1,9 @@
+#font-face{
+    font-family: "Angelina";
+    src: url("\angelina.TTF")
+}
+
+
 #header {
     color: #ccff99;
     text-align: center;
@@ -16,8 +22,6 @@ body{
     background-position: bottom;
 }
 
-
-
 #para1{
     color: #331a00;
     text-align: left;
@@ -35,8 +39,7 @@ body{
     border: 5px solid gold;
 }
 
-
-#groupbox {
+.groupbox {
     background-color:#ccff99;
     width:610px;
     border: 3px #ac7339;
