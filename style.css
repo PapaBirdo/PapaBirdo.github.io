@@ -1,6 +1,9 @@
 #font-face{
     font-family: "Angelina";
-    src: url("\angelina.TTF")
+    src: url("angelina.TTF")
+}
+.Angelina{
+    font-family: "Angelina", sans-serif;
 }
 
 
@@ -20,6 +23,8 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: bottom;
+    font-family: "Angelina", sans-serif;
+    font-size: 14px;
 }
 
 #para1{
