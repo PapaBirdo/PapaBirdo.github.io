@@ -103,12 +103,59 @@ ul {
 .notebox{
     background-color:#ccff99;
     text-align: center;
-    width:200px;
+    width:500;
     border: 3px #ac7339;
     border-style:solid;
     border-radius:6px;
     padding:1px;
     position: absolute;
-    left: 77%; 
-    bottom: 75%
+    left: 73%; 
+    top: 20%;
+    padding-right: 10px;
+}
+
+.notelist{
+    padding-left: 20px;
+    text-align: left;
+}
+
+.listalign{
+    text-align: left;
+    list-style-type:circle;
+}
+
+@media screen and (max-width: 1350px)  {
+    .groupbox{
+        left: 0%;
+    }
+    #pat{
+       position: fixed;
+    }
+
+    #angelina_pat{
+        position: fixed;
+        height:100px;
+        width:100px;
+        left:80%;
+    }
+}
+@media screen and (max-height: 800px)  {
+    #pat{
+        position: absolute;
+     }
+    #angelina_pat{
+        position: absolute;
+        height:100px;
+        width:100px;
+        left:80%;
+    }
+}
+
+@media screen and (max-height: 650px)  {
+    #pat{
+        display: none;
+     }
+    #angelina_pat{
+        display: none;
+    }
 }
