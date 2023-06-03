@@ -3,9 +3,7 @@
     src: url("./Stuff/angelina.TTF");
     font-weight: 500;
 }
-.Angelina{
-    font-family: "Angelina";
-}
+.Angelina{font-family: "Angelina";}
 
 
 #header {
@@ -14,9 +12,7 @@
     text-shadow: 1px 1px #ac7339;
 }
 
-#header span{
-    color:red;
-}
+#header span{color:red;}
 
 body{
     background-color: #ffcccc;
@@ -34,9 +30,7 @@ body{
     text-align: left;
 }
 
-#kid_desc{
-    text-align: center;
-}
+#kid_desc{text-align: center;}
 
 #kid img {
     height: 280px;
@@ -57,9 +51,7 @@ body{
     left: 25%;
 }
 
-#likes span{
-    margin:0px 20px;
-}
+#likes span{margin:0px 20px;}
 
 
 ul {
@@ -82,9 +74,7 @@ ul {
 
 }
 
-#pat:hover {
-      background-color: #fc8585;
-  }
+#pat:hover {background-color: #fc8585;}
 
 #angelina_pat{
     position:absolute;
